@@ -32,28 +32,11 @@ Este projeto foi construído do zero com as tecnologias fundamentais da web:
 * **JavaScript (ES6+):** Para toda a lógica do jogo, manipulação do DOM, sistema de vidas, ajudas e aleatoriedade das perguntas.
 
 ## 🕹️ Como Jogar
+1. Acesse o jogo online: [Vale Um Bilhão](https://vale-um-bilhao.vercel.app/)
+2. Clique em **"Iniciar Jogo"**
+3. Responda as perguntas e use as ajudas estratégicas quando precisar!
 
-1.  Abra o jogo e clique em **"Iniciar Jogo"**.
-2.  Leia a pergunta e escolha uma das quatro alternativas.
-3.  Se estiver em dúvida, use uma das três ajudas disponíveis na parte inferior. Lembre-se, elas são de uso único!
-4.  Responda às 20 perguntas ou até seus 3 erros acabarem.
-5.  Veja sua pontuação final e jogue novamente para tentar um novo recorde!
 
-## 📂 Como Rodar Localmente
-
-É muito simples! Como o projeto usa apenas tecnologias front-end, você não precisa de um servidor.
-
-1.  Clone este repositório:
-    ```bash
-    git clone [https://github.com/seu-usuario/vale-um-bilhao.git](https://github.com/seu-usuario/vale-um-bilhao.git)
-    ```
-2.  Navegue até a pasta do projeto:
-    ```bash
-    cd vale-um-bilhao
-    ```
-3.  Abra o arquivo `index.html` no seu navegador de preferência.
-
-E pronto! O jogo estará rodando na sua máquina.
 
 ---
 
