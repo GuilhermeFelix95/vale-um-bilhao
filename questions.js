@@ -818,645 +818,805 @@ const questions = [
         question: "Qual jogador é conhecido como 'Rei do Futebol'?",
         answers: [
             { text: "Maradona", correct: false },
-        { text: "Messi", correct: false },
-        { text: "Pelé", correct: true },
-        { text: "Cristiano Ronaldo", correct: false }
-    ],
-    score: 100,
-    hints: [
-        "Ele é brasileiro.",
-        "Ele ganhou 3 Copas do Mundo.",
-        "Seu nome verdadeiro é Edson Arantes do Nascimento."
-    ]
-},
-{
-    category: "Futebol",
-    question: "Qual jogador argentino é famoso por ter feito um gol de 'mão de Deus'?",
-    answers: [
-        { text: "Lionel Messi", correct: false },
-        { text: "Diego Maradona", correct: true },
-        { text: "Gabriel Batistuta", correct: false },
-        { text: "Juan Román Riquelme", correct: false }
-    ],
-    score: 150,
-    hints: [
-        "O gol aconteceu na Copa do Mundo de 1986.",
-        "Foi contra a seleção da Inglaterra.",
-        "Seu nome é Diego."
-    ]
-},
-{
-    category: "Futebol",
-    question: "Qual time inglês é conhecido como 'The Red Devils' (Os Diabos Vermelhos)?",
-    answers: [
-        { text: "Liverpool", correct: false },
-        { text: "Arsenal", correct: false },
-        { text: "Manchester City", correct: false },
-        { text: "Manchester United", correct: true }
-    ],
-    score: 200,
-    hints: [
-        "Seu estádio é o Old Trafford.",
-        "Cristiano Ronaldo e Wayne Rooney são ídolos do clube.",
-        "O nome do time inclui o nome da cidade."
-    ]
-},
-{
-    category: "Futebol",
-    question: "Quantas vezes a seleção brasileira masculina de futebol ganhou a Copa do Mundo?",
-    answers: [
-        { text: "4", correct: false },
-        { text: "5", correct: true },
-        { text: "6", correct: false },
-        { text: "3", correct: false }
-    ],
-    score: 50,
-    hints: [
-        "É a seleção com mais títulos.",
-        "O último título foi em 2002.",
-        "É o mesmo número de estrelas na camisa da seleção."
-    ]
-},
-{
-    category: "Futebol",
-    question: "Quem foi o técnico do Brasil na conquista do pentacampeonato em 2002?",
-    answers: [
-        { text: "Zagallo", correct: false },
-        { text: "Tite", correct: false },
-        { text: "Vanderlei Luxemburgo", correct: false },
-        { text: "Luiz Felipe Scolari", correct: true }
-    ],
-    score: 200,
-    hints: [
-        "Ele é conhecido como Felipão.",
-        "Ele também treinou a seleção na Copa de 2014.",
-        "É gaúcho e também treinou Portugal."
-    ]
-},
-{
-    category: "Futebol",
-    question: "Qual jogador português tem 5 títulos da Champions League e é ídolo do Real Madrid?",
-    answers: [
-        { text: "Luís Figo", correct: false },
-        { text: "Cristiano Ronaldo", correct: true },
-        { text: "Eusébio", correct: false },
-        { text: "Deco", correct: false }
-    ],
-    score: 100,
-    hints: [
-        "Ele é famoso por sua comemoração 'Siii'.",
-        "Ele também jogou no Manchester United e na Juventus.",
-        "Seu apelido é CR7."
-    ]
-},
-{
-    category: "Futebol",
-    question: "Qual clube inglês tem o hino 'You'll Never Walk Alone'?",
-    answers: [
-        { text: "Chelsea", correct: false },
-        { text: "Manchester United", correct: false },
-        { text: "Liverpool", correct: true },
-        { text: "Arsenal", correct: false }
-    ],
-    score: 250,
-    hints: [
-        "Seu estádio se chama Anfield.",
-        "O time é conhecido como 'The Reds'.",
-        "A cidade do time é a mesma dos Beatles."
-    ]
-},
-{
-    category: "Futebol",
-    question: "Qual jogador brasileiro é conhecido como 'Fenômeno'?",
-    answers: [
-        { text: "Neymar", correct: false },
-        { text: "Ronaldinho Gaúcho", correct: false },
-        { text: "Ronaldo Nazário", correct: true },
-        { text: "Romário", correct: false }
-    ],
-    score: 100,
-    hints: [
-        "Ele foi o principal jogador da Copa de 2002.",
-        "Ele usou um corte de cabelo famoso (cascão) na final.",
-        "Seu primeiro nome é Ronaldo."
-    ]
-},
-{
-    category: "Futebol",
-    question: "Qual jogador detém o recorde de mais Bolas de Ouro da FIFA?",
-    answers: [
-        { text: "Cristiano Ronaldo", correct: false },
-        { text: "Zinedine Zidane", correct: false },
-        { text: "Johan Cruyff", correct: false },
-        { text: "Lionel Messi", correct: true }
-    ],
-    score: 150,
-    hints: [
-        "Ele é argentino.",
-        "Passou a maior parte de sua carreira no Barcelona.",
-        "Ganhou a Copa do Mundo de 2022."
-    ]
-},
-{
-    category: "Futebol",
-    question: "Em que país será realizada a próxima Copa do Mundo de 2026?",
-    answers: [
-        { text: "Espanha, Portugal e Marrocos", correct: false },
-        { text: "Argentina, Uruguai e Paraguai", correct: false },
-        { text: "EUA, México e Canadá", correct: true },
-        { text: "Arábia Saudita", correct: false }
-    ],
-    score: 200,
-    hints: [
-        "Será a primeira Copa com 48 seleções.",
-        "Será sediada por três países.",
-        "Todos os países anfitriões ficam na América do Norte."
-    ]
-},
+            { text: "Messi", correct: false },
+            { text: "Pelé", correct: true },
+            { text: "Cristiano Ronaldo", correct: false }
+        ],
+        score: 100,
+        hints: [
+            "Ele é brasileiro.",
+            "Ele ganhou 3 Copas do Mundo.",
+            "Seu nome verdadeiro é Edson Arantes do Nascimento."
+        ]
+    },
+    {
+        category: "Futebol",
+        question: "Qual jogador argentino é famoso por ter feito um gol de 'mão de Deus'?",
+        answers: [
+            { text: "Lionel Messi", correct: false },
+            { text: "Diego Maradona", correct: true },
+            { text: "Gabriel Batistuta", correct: false },
+            { text: "Juan Román Riquelme", correct: false }
+        ],
+        score: 150,
+        hints: [
+            "O gol aconteceu na Copa do Mundo de 1986.",
+            "Foi contra a seleção da Inglaterra.",
+            "Seu nome é Diego."
+        ]
+    },
+    {
+        category: "Futebol",
+        question: "Qual time inglês é conhecido como 'The Red Devils' (Os Diabos Vermelhos)?",
+        answers: [
+            { text: "Liverpool", correct: false },
+            { text: "Arsenal", correct: false },
+            { text: "Manchester City", correct: false },
+            { text: "Manchester United", correct: true }
+        ],
+        score: 200,
+        hints: [
+            "Seu estádio é o Old Trafford.",
+            "Cristiano Ronaldo e Wayne Rooney são ídolos do clube.",
+            "O nome do time inclui o nome da cidade."
+        ]
+    },
+    {
+        category: "Futebol",
+        question: "Quantas vezes a seleção brasileira masculina de futebol ganhou a Copa do Mundo?",
+        answers: [
+            { text: "4", correct: false },
+            { text: "5", correct: true },
+            { text: "6", correct: false },
+            { text: "3", correct: false }
+        ],
+        score: 50,
+        hints: [
+            "É a seleção com mais títulos.",
+            "O último título foi em 2002.",
+            "É o mesmo número de estrelas na camisa da seleção."
+        ]
+    },
+    {
+        category: "Futebol",
+        question: "Quem foi o técnico do Brasil na conquista do pentacampeonato em 2002?",
+        answers: [
+            { text: "Zagallo", correct: false },
+            { text: "Tite", correct: false },
+            { text: "Vanderlei Luxemburgo", correct: false },
+            { text: "Luiz Felipe Scolari", correct: true }
+        ],
+        score: 200,
+        hints: [
+            "Ele é conhecido como Felipão.",
+            "Ele também treinou a seleção na Copa de 2014.",
+            "É gaúcho e também treinou Portugal."
+        ]
+    },
+    {
+        category: "Futebol",
+        question: "Qual jogador português tem 5 títulos da Champions League e é ídolo do Real Madrid?",
+        answers: [
+            { text: "Luís Figo", correct: false },
+            { text: "Cristiano Ronaldo", correct: true },
+            { text: "Eusébio", correct: false },
+            { text: "Deco", correct: false }
+        ],
+        score: 100,
+        hints: [
+            "Ele é famoso por sua comemoração 'Siii'.",
+            "Ele também jogou no Manchester United e na Juventus.",
+            "Seu apelido é CR7."
+        ]
+    },
+    {
+        category: "Futebol",
+        question: "Qual clube inglês tem o hino 'You'll Never Walk Alone'?",
+        answers: [
+            { text: "Chelsea", correct: false },
+            { text: "Manchester United", correct: false },
+            { text: "Liverpool", correct: true },
+            { text: "Arsenal", correct: false }
+        ],
+        score: 250,
+        hints: [
+            "Seu estádio se chama Anfield.",
+            "O time é conhecido como 'The Reds'.",
+            "A cidade do time é a mesma dos Beatles."
+        ]
+    },
+    {
+        category: "Futebol",
+        question: "Qual jogador brasileiro é conhecido como 'Fenômeno'?",
+        answers: [
+            { text: "Neymar", correct: false },
+            { text: "Ronaldinho Gaúcho", correct: false },
+            { text: "Ronaldo Nazário", correct: true },
+            { text: "Romário", correct: false }
+        ],
+        score: 100,
+        hints: [
+            "Ele foi o principal jogador da Copa de 2002.",
+            "Ele usou um corte de cabelo famoso (cascão) na final.",
+            "Seu primeiro nome é Ronaldo."
+        ]
+    },
+    {
+        category: "Futebol",
+        question: "Qual jogador detém o recorde de mais Bolas de Ouro da FIFA?",
+        answers: [
+            { text: "Cristiano Ronaldo", correct: false },
+            { text: "Zinedine Zidane", correct: false },
+            { text: "Johan Cruyff", correct: false },
+            { text: "Lionel Messi", correct: true }
+        ],
+        score: 150,
+        hints: [
+            "Ele é argentino.",
+            "Passou a maior parte de sua carreira no Barcelona.",
+            "Ganhou a Copa do Mundo de 2022."
+        ]
+    },
+    {
+        category: "Futebol",
+        question: "Em que país será realizada a próxima Copa do Mundo de 2026?",
+        answers: [
+            { text: "Espanha, Portugal e Marrocos", correct: false },
+            { text: "Argentina, Uruguai e Paraguai", correct: false },
+            { text: "EUA, México e Canadá", correct: true },
+            { text: "Arábia Saudita", correct: false }
+        ],
+        score: 200,
+        hints: [
+            "Será a primeira Copa com 48 seleções.",
+            "Será sediada por três países.",
+            "Todos os países anfitriões ficam na América do Norte."
+        ]
+    },
 
-// --- FILMES ---
-{
-    category: "Filmes",
-    question: "Qual filme de 1997, dirigido por James Cameron, foi o de maior bilheteria por muitos anos?",
-    answers: [
-        { text: "Jurassic Park", correct: false },
-        { text: "Titanic", correct: true },
-        { text: "O Exterminador do Futuro 2", correct: false },
-        { text: "Avatar", correct: false }
-    ],
-    score: 150,
-    hints: [
-        "A história se passa em um navio famoso.",
-        "A música tema é 'My Heart Will Go On'.",
-        "É estrelado por Leonardo DiCaprio e Kate Winslet."
-    ]
-},
-{
-    category: "Filmes",
-    question: "Qual ator interpretou o Coringa no filme 'O Cavaleiro das Trevas' de 2008?",
-    answers: [
-        { text: "Jack Nicholson", correct: false },
-        { text: "Joaquin Phoenix", correct: false },
-        { text: "Heath Ledger", correct: true },
-        { text: "Jared Leto", correct: false }
-    ],
-    score: 200,
-    hints: [
-        "Sua atuação lhe rendeu um Oscar póstumo.",
-        "Ele era australiano.",
-        "Sua famosa frase no filme é 'Why so serious?'."
-    ]
-},
-{
-    category: "Filmes",
-    question: "Qual objeto mágico é o centro da trama na trilogia 'O Senhor dos Anéis'?",
-    answers: [
-        { text: "A Varinha das Varinhas", correct: false },
-        { text: "O Um Anel", correct: true },
-        { text: "A Pedra Filosofal", correct: false },
-        { text: "O Olho de Agamotto", correct: false }
-    ],
-    score: 100,
-    hints: [
-        "Foi forjado por Sauron.",
-        "Ele deixa seu portador invisível.",
-        "A inscrição 'Um Anel para a todos governar...' aparece nele."
-    ]
-},
-{
-    category: "Filmes",
-    question: "Quem dirigiu o clássico filme de suspense 'Psicose' de 1960?",
-    answers: [
-        { text: "Stanley Kubrick", correct: false },
-        { text: "Orson Welles", correct: false },
-        { text: "Alfred Hitchcock", correct: true },
-        { text: "Martin Scorsese", correct: false }
-    ],
-    score: 250,
-    hints: [
-        "Ele era conhecido como o 'Mestre do Suspense'.",
-        "Ele fazia aparições rápidas em seus próprios filmes.",
-        "A famosa cena do chuveiro é deste filme."
-    ]
-},
-{
-    category: "Filmes",
-    question: "Qual filme da Pixar conta a história dos sentimentos de uma menina chamada Riley?",
-    answers: [
-        { text: "Up - Altas Aventuras", correct: false },
-        { text: "Divertida Mente", correct: true },
-        { text: "WALL-E", correct: false },
-        { text: "Toy Story", correct: false }
-    ],
-    score: 100,
-    hints: [
-        "Os personagens principais são Alegria, Tristeza, Raiva, Medo e Nojinho.",
-        "O filme se passa, em grande parte, dentro da cabeça da personagem.",
-        "O título em inglês é 'Inside Out'."
-    ]
-},
-{
-    category: "Filmes",
-    question: "Qual ator interpreta o Capitão Jack Sparrow na franquia 'Piratas do Caribe'?",
-    answers: [
-        { text: "Orlando Bloom", correct: false },
-        { text: "Geoffrey Rush", correct: false },
-        { text: "Johnny Depp", correct: true },
-        { text: "Javier Bardem", correct: false }
-    ],
-    score: 50,
-    hints: [
-        "Ele é conhecido por seus papéis excêntricos.",
-        "Ele também interpretou Willy Wonka e o Chapeleiro Maluco.",
-        "Seu nome é Johnny."
-    ]
-},
-{
-    category: "Filmes",
-    question: "Em 'De Volta para o Futuro', qual é a marca do carro usado como máquina do tempo?",
-    answers: [
-        { text: "Ferrari", correct: false },
-        { text: "Porsche", correct: false },
-        { text: "DeLorean", correct: true },
-        { text: "Lamborghini", correct: false }
-    ],
-    score: 150,
-    hints: [
-        "O carro tem portas que abrem para cima (asas de gaivota).",
-        "A marca é de um engenheiro que trabalhou na General Motors.",
-        "O nome da marca começa com 'DeL'."
-    ]
-},
-{
-    category: "Filmes",
-    question: "Qual filme de Quentin Tarantino é dividido em capítulos não cronológicos e estrela John Travolta?",
-    answers: [
-        { text: "Cães de Aluguel", correct: false },
-        { text: "Kill Bill", correct: false },
-        { text: "Pulp Fiction: Tempo de Violência", correct: true },
-        { text: "Bastardos Inglórios", correct: false }
-    ],
-    score: 250,
-    hints: [
-        "O pôster do filme mostra Uma Thurman deitada fumando.",
-        "A cena da dança entre John Travolta e Uma Thurman é icônica.",
-        "O título se refere a revistas baratas de ficção."
-    ]
-},
-{
-    category: "Filmes",
-    question: "Qual o nome do vilão principal na saga 'Harry Potter'?",
-    answers: [
-        { text: "Draco Malfoy", correct: false },
-        { text: "Severus Snape", correct: false },
-        { text: "Lord Voldemort", correct: true },
-        { text: "Sirius Black", correct: false }
-    ],
-    score: 50,
-    hints: [
-        "Ele é conhecido como 'Aquele-Que-Não-Deve-Ser-Nomeado'.",
-        "Ele matou os pais de Harry.",
-        "Seu nome verdadeiro é Tom Riddle."
-    ]
-},
-{
-    category: "Filmes",
-    question: "Qual filme de ficção científica de 1999 popularizou o efeito 'bullet time'?",
-    answers: [
-        { text: "O Quinto Elemento", correct: false },
-        { text: "Blade Runner", correct: false },
-        { text: "Matrix", correct: true },
-        { text: "Starship Troopers", correct: false }
-    ],
-    score: 200,
-    hints: [
-        "O protagonista, Neo, é interpretado por Keanu Reeves.",
-        "O filme questiona a natureza da nossa realidade.",
-        "A famosa cena envolve desviar de balas em câmera lenta."
-    ]
-},
+    // --- FILMES ---
+    {
+        category: "Filmes",
+        question: "Qual filme de 1997, dirigido por James Cameron, foi o de maior bilheteria por muitos anos?",
+        answers: [
+            { text: "Jurassic Park", correct: false },
+            { text: "Titanic", correct: true },
+            { text: "O Exterminador do Futuro 2", correct: false },
+            { text: "Avatar", correct: false }
+        ],
+        score: 150,
+        hints: [
+            "A história se passa em um navio famoso.",
+            "A música tema é 'My Heart Will Go On'.",
+            "É estrelado por Leonardo DiCaprio e Kate Winslet."
+        ]
+    },
+    {
+        category: "Filmes",
+        question: "Qual ator interpretou o Coringa no filme 'O Cavaleiro das Trevas' de 2008?",
+        answers: [
+            { text: "Jack Nicholson", correct: false },
+            { text: "Joaquin Phoenix", correct: false },
+            { text: "Heath Ledger", correct: true },
+            { text: "Jared Leto", correct: false }
+        ],
+        score: 200,
+        hints: [
+            "Sua atuação lhe rendeu um Oscar póstumo.",
+            "Ele era australiano.",
+            "Sua famosa frase no filme é 'Why so serious?'."
+        ]
+    },
+    {
+        category: "Filmes",
+        question: "Qual objeto mágico é o centro da trama na trilogia 'O Senhor dos Anéis'?",
+        answers: [
+            { text: "A Varinha das Varinhas", correct: false },
+            { text: "O Um Anel", correct: true },
+            { text: "A Pedra Filosofal", correct: false },
+            { text: "O Olho de Agamotto", correct: false }
+        ],
+        score: 100,
+        hints: [
+            "Foi forjado por Sauron.",
+            "Ele deixa seu portador invisível.",
+            "A inscrição 'Um Anel para a todos governar...' aparece nele."
+        ]
+    },
+    {
+        category: "Filmes",
+        question: "Quem dirigiu o clássico filme de suspense 'Psicose' de 1960?",
+        answers: [
+            { text: "Stanley Kubrick", correct: false },
+            { text: "Orson Welles", correct: false },
+            { text: "Alfred Hitchcock", correct: true },
+            { text: "Martin Scorsese", correct: false }
+        ],
+        score: 250,
+        hints: [
+            "Ele era conhecido como o 'Mestre do Suspense'.",
+            "Ele fazia aparições rápidas em seus próprios filmes.",
+            "A famosa cena do chuveiro é deste filme."
+        ]
+    },
+    {
+        category: "Filmes",
+        question: "Qual filme da Pixar conta a história dos sentimentos de uma menina chamada Riley?",
+        answers: [
+            { text: "Up - Altas Aventuras", correct: false },
+            { text: "Divertida Mente", correct: true },
+            { text: "WALL-E", correct: false },
+            { text: "Toy Story", correct: false }
+        ],
+        score: 100,
+        hints: [
+            "Os personagens principais são Alegria, Tristeza, Raiva, Medo e Nojinho.",
+            "O filme se passa, em grande parte, dentro da cabeça da personagem.",
+            "O título em inglês é 'Inside Out'."
+        ]
+    },
+    {
+        category: "Filmes",
+        question: "Qual ator interpreta o Capitão Jack Sparrow na franquia 'Piratas do Caribe'?",
+        answers: [
+            { text: "Orlando Bloom", correct: false },
+            { text: "Geoffrey Rush", correct: false },
+            { text: "Johnny Depp", correct: true },
+            { text: "Javier Bardem", correct: false }
+        ],
+        score: 50,
+        hints: [
+            "Ele é conhecido por seus papéis excêntricos.",
+            "Ele também interpretou Willy Wonka e o Chapeleiro Maluco.",
+            "Seu nome é Johnny."
+        ]
+    },
+    {
+        category: "Filmes",
+        question: "Em 'De Volta para o Futuro', qual é a marca do carro usado como máquina do tempo?",
+        answers: [
+            { text: "Ferrari", correct: false },
+            { text: "Porsche", correct: false },
+            { text: "DeLorean", correct: true },
+            { text: "Lamborghini", correct: false }
+        ],
+        score: 150,
+        hints: [
+            "O carro tem portas que abrem para cima (asas de gaivota).",
+            "A marca é de um engenheiro que trabalhou na General Motors.",
+            "O nome da marca começa com 'DeL'."
+        ]
+    },
+    {
+        category: "Filmes",
+        question: "Qual filme de Quentin Tarantino é dividido em capítulos não cronológicos e estrela John Travolta?",
+        answers: [
+            { text: "Cães de Aluguel", correct: false },
+            { text: "Kill Bill", correct: false },
+            { text: "Pulp Fiction: Tempo de Violência", correct: true },
+            { text: "Bastardos Inglórios", correct: false }
+        ],
+        score: 250,
+        hints: [
+            "O pôster do filme mostra Uma Thurman deitada fumando.",
+            "A cena da dança entre John Travolta e Uma Thurman é icônica.",
+            "O título se refere a revistas baratas de ficção."
+        ]
+    },
+    {
+        category: "Filmes",
+        question: "Qual o nome do vilão principal na saga 'Harry Potter'?",
+        answers: [
+            { text: "Draco Malfoy", correct: false },
+            { text: "Severus Snape", correct: false },
+            { text: "Lord Voldemort", correct: true },
+            { text: "Sirius Black", correct: false }
+        ],
+        score: 50,
+        hints: [
+            "Ele é conhecido como 'Aquele-Que-Não-Deve-Ser-Nomeado'.",
+            "Ele matou os pais de Harry.",
+            "Seu nome verdadeiro é Tom Riddle."
+        ]
+    },
+    {
+        category: "Filmes",
+        question: "Qual filme de ficção científica de 1999 popularizou o efeito 'bullet time'?",
+        answers: [
+            { text: "O Quinto Elemento", correct: false },
+            { text: "Blade Runner", correct: false },
+            { text: "Matrix", correct: true },
+            { text: "Starship Troopers", correct: false }
+        ],
+        score: 200,
+        hints: [
+            "O protagonista, Neo, é interpretado por Keanu Reeves.",
+            "O filme questiona a natureza da nossa realidade.",
+            "A famosa cena envolve desviar de balas em câmera lenta."
+        ]
+    },
 
-// --- SÉRIES ---
-{
-    category: "Séries",
-    question: "Em 'Game of Thrones', qual é o lema da Casa Stark?",
-    answers: [
-        { text: "Ouça-me Rugir!", correct: false },
-        { text: "O Inverno está Chegando", correct: true },
-        { text: "Fogo e Sangue", correct: false },
-        { text: "Nós não Semeamos", correct: false }
-    ],
-    score: 150,
-    hints: [
-        "É uma frase de advertência.",
-        "A família vive no Norte de Westeros.",
-        "A frase se refere a uma longa estação do ano."
-    ]
-},
-{
-    category: "Séries",
-    question: "Qual é a profissão de Sheldon Cooper na série 'The Big Bang Theory'?",
-    answers: [
-        { text: "Engenheiro Aeroespacial", correct: false },
-        { text: "Astrofísico", correct: false },
-        { text: "Físico Teórico", correct: true },
-        { text: "Neurocientista", correct: false }
-    ],
-    score: 200,
-    hints: [
-        "Ele estuda conceitos como a Teoria das Cordas.",
-        "É um campo da física que usa modelos matemáticos.",
-        "Não é uma ciência experimental."
-    ]
-},
-{
-    category: "Séries",
-    question: "Qual série de comédia se passa em um escritório de uma empresa de papel chamada Dunder Mifflin?",
-    answers: [
-        { text: "Parks and Recreation", correct: false },
-        { text: "Brooklyn Nine-Nine", correct: false },
-        { text: "The Office", correct: true },
-        { text: "Community", correct: false }
-    ],
-    score: 100,
-    hints: [
-        "O gerente se chama Michael Scott.",
-        "A série é filmada no estilo de um documentário.",
-        "O nome da série significa 'O Escritório'."
-    ]
-},
-{
-    category: "Séries",
-    question: "Em 'Friends', qual é o nome do café onde os personagens se encontram?",
-    answers: [
-        { text: "Monk's Café", correct: false },
-        { text: "Central Perk", correct: true },
-        { text: "MacLaren's Pub", correct: false },
-        { text: "Luke's Diner", correct: false }
-    ],
-    score: 50,
-    hints: [
-        "O nome é um trocadilho com um famoso parque de Nova York.",
-        "O sofá laranja é o ponto principal do local.",
-        "O gerente se chama Gunther."
-    ]
-},
-{
-    category: "Séries",
-    question: "Qual é o nome do monstro do Mundo Invertido na primeira temporada de 'Stranger Things'?",
-    answers: [
-        { text: "Devorador de Mentes", correct: false },
-        { text: "Vecna", correct: false },
-        { text: "Demogorgon", correct: true },
-        { text: "D'Artagnan", correct: false }
-    ],
-    score: 150,
-    hints: [
-        "O nome foi tirado de um jogo de RPG.",
-        "Ele não tem rosto, sua cabeça se abre como uma flor.",
-        "É o monstro que leva Will Byers."
-    ]
-},
-{
-    category: "Séries",
-    question: "Qual série conta a história de um grupo de ladrões que assaltam a Casa da Moeda da Espanha?",
-    answers: [
-        { text: "Vis a Vis", correct: false },
-        { text: "Elite", correct: false },
-        { text: "La Casa de Papel", correct: true },
-        { text: "Lupin", correct: false }
-    ],
-    score: 100,
-    hints: [
-        "Os personagens usam nomes de cidades.",
-        "O líder do grupo é chamado de 'Professor'.",
-        "O macacão vermelho e a máscara de Dalí são seus símbolos."
-    ]
-},
-{
-    category: "Séries",
-    question: "Em 'The Crown', qual rainha a série retrata?",
-    answers: [
-        { text: "Rainha Vitória", correct: false },
-        { text: "Rainha Elizabeth II", correct: true },
-        { text: "Rainha Mary", correct: false },
-        { text: "Rainha Anne", correct: false }
-    ],
-    score: 150,
-    hints: [
-        "Ela teve o reinado mais longo da história do Reino Unido.",
-        "A série começa com seu casamento com Philip.",
-        "Ela faleceu em 2022."
-    ]
-},
-{
-    category: "Séries",
-    question: "Qual série médica se passa no hospital Seattle Grace?",
-    answers: [
-        { text: "House", correct: false },
-        { text: "The Good Doctor", correct: false },
-        { text: "Grey's Anatomy", correct: true },
-        { text: "ER (Plantão Médico)", correct: false }
-    ],
-    score: 100,
-    hints: [
-        "A protagonista se chama Meredith Grey.",
-        "A série é famosa por seus dramas românticos e tragédias.",
-        "O nome da série é um trocadilho com um famoso livro de anatomia."
-    ]
-},
-{
-    category: "Séries",
-    question: "Em 'Peaky Blinders', qual é o nome da família de gângsteres protagonista?",
-    answers: [
-        { text: "Corleone", correct: false },
-        { text: "Soprano", correct: false },
-        { text: "Shelby", correct: true },
-        { text: "Lannister", correct: false }
-    ],
-    score: 200,
-    hints: [
-        "O líder da família se chama Thomas.",
-        "Eles são de Birmingham, Inglaterra.",
-        "O nome da gangue vem das navalhas que escondiam em suas boinas."
-    ]
-},
-{
-    category: "Séries",
-    question: "Qual o nome do anti-herói protagonista da série 'Dexter'?",
-    answers: [
-        { text: "Walter White", correct: false },
-        { text: "Tony Soprano", correct: false },
-        { text: "Dexter Morgan", correct: true },
-        { text: "Don Draper", correct: false }
-    ],
-    score: 150,
-    hints: [
-        "De dia, ele é um analista forense de padrões de sangue.",
-        "À noite, ele caça e mata outros assassinos.",
-        "Seu nome está no título da série."
-    ]
-},
+    // --- SÉRIES ---
+    {
+        category: "Séries",
+        question: "Em 'Game of Thrones', qual é o lema da Casa Stark?",
+        answers: [
+            { text: "Ouça-me Rugir!", correct: false },
+            { text: "O Inverno está Chegando", correct: true },
+            { text: "Fogo e Sangue", correct: false },
+            { text: "Nós não Semeamos", correct: false }
+        ],
+        score: 150,
+        hints: [
+            "É uma frase de advertência.",
+            "A família vive no Norte de Westeros.",
+            "A frase se refere a uma longa estação do ano."
+        ]
+    },
+    {
+        category: "Séries",
+        question: "Qual é a profissão de Sheldon Cooper na série 'The Big Bang Theory'?",
+        answers: [
+            { text: "Engenheiro Aeroespacial", correct: false },
+            { text: "Astrofísico", correct: false },
+            { text: "Físico Teórico", correct: true },
+            { text: "Neurocientista", correct: false }
+        ],
+        score: 200,
+        hints: [
+            "Ele estuda conceitos como a Teoria das Cordas.",
+            "É um campo da física que usa modelos matemáticos.",
+            "Não é uma ciência experimental."
+        ]
+    },
+    {
+        category: "Séries",
+        question: "Qual série de comédia se passa em um escritório de uma empresa de papel chamada Dunder Mifflin?",
+        answers: [
+            { text: "Parks and Recreation", correct: false },
+            { text: "Brooklyn Nine-Nine", correct: false },
+            { text: "The Office", correct: true },
+            { text: "Community", correct: false }
+        ],
+        score: 100,
+        hints: [
+            "O gerente se chama Michael Scott.",
+            "A série é filmada no estilo de um documentário.",
+            "O nome da série significa 'O Escritório'."
+        ]
+    },
+    {
+        category: "Séries",
+        question: "Em 'Friends', qual é o nome do café onde os personagens se encontram?",
+        answers: [
+            { text: "Monk's Café", correct: false },
+            { text: "Central Perk", correct: true },
+            { text: "MacLaren's Pub", correct: false },
+            { text: "Luke's Diner", correct: false }
+        ],
+        score: 50,
+        hints: [
+            "O nome é um trocadilho com um famoso parque de Nova York.",
+            "O sofá laranja é o ponto principal do local.",
+            "O gerente se chama Gunther."
+        ]
+    },
+    {
+        category: "Séries",
+        question: "Qual é o nome do monstro do Mundo Invertido na primeira temporada de 'Stranger Things'?",
+        answers: [
+            { text: "Devorador de Mentes", correct: false },
+            { text: "Vecna", correct: false },
+            { text: "Demogorgon", correct: true },
+            { text: "D'Artagnan", correct: false }
+        ],
+        score: 150,
+        hints: [
+            "O nome foi tirado de um jogo de RPG.",
+            "Ele não tem rosto, sua cabeça se abre como uma flor.",
+            "É o monstro que leva Will Byers."
+        ]
+    },
+    {
+        category: "Séries",
+        question: "Qual série conta a história de um grupo de ladrões que assaltam a Casa da Moeda da Espanha?",
+        answers: [
+            { text: "Vis a Vis", correct: false },
+            { text: "Elite", correct: false },
+            { text: "La Casa de Papel", correct: true },
+            { text: "Lupin", correct: false }
+        ],
+        score: 100,
+        hints: [
+            "Os personagens usam nomes de cidades.",
+            "O líder do grupo é chamado de 'Professor'.",
+            "O macacão vermelho e a máscara de Dalí são seus símbolos."
+        ]
+    },
+    {
+        category: "Séries",
+        question: "Em 'The Crown', qual rainha a série retrata?",
+        answers: [
+            { text: "Rainha Vitória", correct: false },
+            { text: "Rainha Elizabeth II", correct: true },
+            { text: "Rainha Mary", correct: false },
+            { text: "Rainha Anne", correct: false }
+        ],
+        score: 150,
+        hints: [
+            "Ela teve o reinado mais longo da história do Reino Unido.",
+            "A série começa com seu casamento com Philip.",
+            "Ela faleceu em 2022."
+        ]
+    },
+    {
+        category: "Séries",
+        question: "Qual série médica se passa no hospital Seattle Grace?",
+        answers: [
+            { text: "House", correct: false },
+            { text: "The Good Doctor", correct: false },
+            { text: "Grey's Anatomy", correct: true },
+            { text: "ER (Plantão Médico)", correct: false }
+        ],
+        score: 100,
+        hints: [
+            "A protagonista se chama Meredith Grey.",
+            "A série é famosa por seus dramas românticos e tragédias.",
+            "O nome da série é um trocadilho com um famoso livro de anatomia."
+        ]
+    },
+    {
+        category: "Séries",
+        question: "Em 'Peaky Blinders', qual é o nome da família de gângsteres protagonista?",
+        answers: [
+            { text: "Corleone", correct: false },
+            { text: "Soprano", correct: false },
+            { text: "Shelby", correct: true },
+            { text: "Lannister", correct: false }
+        ],
+        score: 200,
+        hints: [
+            "O líder da família se chama Thomas.",
+            "Eles são de Birmingham, Inglaterra.",
+            "O nome da gangue vem das navalhas que escondiam em suas boinas."
+        ]
+    },
+    {
+        category: "Séries",
+        question: "Qual o nome do anti-herói protagonista da série 'Dexter'?",
+        answers: [
+            { text: "Walter White", correct: false },
+            { text: "Tony Soprano", correct: false },
+            { text: "Dexter Morgan", correct: true },
+            { text: "Don Draper", correct: false }
+        ],
+        score: 150,
+        hints: [
+            "De dia, ele é um analista forense de padrões de sangue.",
+            "À noite, ele caça e mata outros assassinos.",
+            "Seu nome está no título da série."
+        ]
+    },
 
-// --- DESENHOS ---
-{
-    category: "Desenhos",
-    question: "Qual é o nome do melhor amigo de Bob Esponja?",
-    answers: [
-        { text: "Lula Molusco", correct: false },
-        { text: "Patrick Estrela", correct: true },
-        { text: "Seu Sirigueijo", correct: false },
-        { text: "Sandy Bochechas", correct: false }
-    ],
-    score: 50,
-    hints: [
-        "Ele é uma estrela-do-mar rosa.",
-        "Ele mora debaixo de uma pedra.",
-        "Ele não é muito inteligente."
-    ]
-},
-{
-    category: "Desenhos",
-    question: "Em 'Os Simpsons', qual é o nome do dono da Usina Nuclear de Springfield?",
-    answers: [
-        { text: "Waylon Smithers", correct: false },
-        { text: "Ned Flanders", correct: false },
-        { text: "Sr. Burns", correct: true },
-        { text: "Moe Szyslak", correct: false }
-    ],
-    score: 100,
-    hints: [
-        "Ele é muito velho e rico.",
-        "Sua frase mais famosa é 'Excelente'.",
-        "Seu assistente pessoal é o Smithers."
-    ]
-},
-{
-    category: "Desenhos",
-    question: "Qual é o nome do personagem principal de 'Dragon Ball Z'?",
-    answers: [
-        { text: "Vegeta", correct: false },
-        { text: "Gohan", correct: false },
-        { text: "Goku", correct: true },
-        { text: "Piccolo", correct: false }
-    ],
-    score: 50,
-    hints: [
-        "Ele é um Saiyajin.",
-        "Sua principal técnica é o 'Kamehameha'.",
-        "Ele é o pai de Gohan e Goten."
-    ]
-},
-{
-    category: "Desenhos",
-    question: "Em 'Tom e Jerry', qual personagem é o gato?",
-    answers: [
-        { text: "Jerry", correct: false },
-        { text: "Spike", correct: false },
-        { text: "Tom", correct: true },
-        { text: "Butch", correct: false }
-    ],
-    score: 50,
-    hints: [
-        "Ele sempre tenta capturar o rato.",
-        "Ele é cinza e branco.",
-        "Seu nome tem apenas 3 letras."
-    ]
-},
-{
-    category: "Desenhos",
-    question: "Qual o nome do garoto que tem um laboratório secreto em seu quarto?",
-    answers: [
-        { text: "Johnny Bravo", correct: false },
-        { text: "Jimmy Neutron", correct: false },
-        { text: "Dexter", correct: true },
-        { text: "Phineas", correct: false }
-    ],
-    score: 150,
-    hints: [
-        "Sua irmã mais velha, Dee Dee, sempre invade seu laboratório.",
-        "Ele tem um sotaque estranho.",
-        "O nome do desenho é 'O Laboratório de...'."
-    ]
-},
-{
-    category: "Desenhos",
-    question: "Qual é o nome do cão medroso amigo de Salsicha?",
-    answers: [
-        { text: "Coragem, o Cão Covarde", correct: false },
-        { text: "Pluto", correct: false },
-        { text: "Scooby-Doo", correct: true },
-        { text: "Snoopy", correct: false }
-    ],
-    score: 50,
-    hints: [
-        "Ele resolve mistérios com seus amigos.",
-        "Ele adora 'Biscoitos Scooby'.",
-        "Sua frase é 'Scooby-Dooby-Doo!'."
-    ]
-},
-{
-    category: "Desenhos",
-    question: "Qual o nome da cidade onde vivem os Flintstones?",
-    answers: [
-        { text: "Springfield", correct: false },
-        { text: "Metropolis", correct: false },
-        { text: "Bedrock", correct: true },
-        { text: "Gotham", correct: false }
-    ],
-    score: 150,
-    hints: [
-        "É uma cidade da Idade da Pedra.",
-        "O nome se refere a uma base de rocha.",
-        "Começa com a letra 'B'."
-    ]
-},
-{
-    category: "Desenhos",
-    question: "Qual o nome do protagonista de 'Avatar: A Lenda de Aang'?",
-    answers: [
-        { text: "Zuko", correct: false },
-        { text: "Sokka", correct: false },
-        { text: "Aang", correct: true },
-        { text: "Korra", correct: false }
-    ],
-    score: 100,
-    hints: [
-        "Ele é um dobrador de ar.",
-        "Ele é o último de sua nação.",
-        "Seu nome está no título do desenho."
-    ]
-},
-{
-    category: "Desenhos",
-    question: "Qual o nome do vilão que sempre tenta roubar a fórmula do Hambúrguer de Siri?",
-    answers: [
-        { text: "Homem-Sereia", correct: false },
-        { text: "Lula Molusco", correct: false },
-        { text: "Plankton", correct: true },
-        { text: "Holandês Voador", correct: false }
-    ],
-    score: 100,
-    hints: [
-        "Ele é muito pequeno.",
-        "Ele é o dono do restaurante 'Balde de Lixo'.",
-        "Ele é um organismo unicelular."
-    ]
-},
-{
-    category: "Desenhos",
-    question: "Em 'Hora de Aventura', quais são os nomes dos dois personagens principais?",
-    answers: [
-        { text: "Mordecai e Rigby", correct: false },
-        { text: "Gumball e Darwin", correct: false },
-        { text: "Finn e Jake", correct: true },
-        { text: "Dipper e Mabel", correct: false }
-    ],
-    score: 100,
-    hints: [
-        "Um é um garoto humano.",
-        "O outro é um cão mágico que pode esticar seu corpo.",
-        "Eles vivem na Terra de Ooo."
-    ]
-}
+    // --- DESENHOS ---
+    {
+        category: "Desenhos",
+        question: "Qual é o nome do melhor amigo de Bob Esponja?",
+        answers: [
+            { text: "Lula Molusco", correct: false },
+            { text: "Patrick Estrela", correct: true },
+            { text: "Seu Sirigueijo", correct: false },
+            { text: "Sandy Bochechas", correct: false }
+        ],
+        score: 50,
+        hints: [
+            "Ele é uma estrela-do-mar rosa.",
+            "Ele mora debaixo de uma pedra.",
+            "Ele não é muito inteligente."
+        ]
+    },
+    {
+        category: "Desenhos",
+        question: "Em 'Os Simpsons', qual é o nome do dono da Usina Nuclear de Springfield?",
+        answers: [
+            { text: "Waylon Smithers", correct: false },
+            { text: "Ned Flanders", correct: false },
+            { text: "Sr. Burns", correct: true },
+            { text: "Moe Szyslak", correct: false }
+        ],
+        score: 100,
+        hints: [
+            "Ele é muito velho e rico.",
+            "Sua frase mais famosa é 'Excelente'.",
+            "Seu assistente pessoal é o Smithers."
+        ]
+    },
+    {
+        category: "Desenhos",
+        question: "Qual é o nome do personagem principal de 'Dragon Ball Z'?",
+        answers: [
+            { text: "Vegeta", correct: false },
+            { text: "Gohan", correct: false },
+            { text: "Goku", correct: true },
+            { text: "Piccolo", correct: false }
+        ],
+        score: 50,
+        hints: [
+            "Ele é um Saiyajin.",
+            "Sua principal técnica é o 'Kamehameha'.",
+            "Ele é o pai de Gohan e Goten."
+        ]
+    },
+    {
+        category: "Desenhos",
+        question: "Em 'Tom e Jerry', qual personagem é o gato?",
+        answers: [
+            { text: "Jerry", correct: false },
+            { text: "Spike", correct: false },
+            { text: "Tom", correct: true },
+            { text: "Butch", correct: false }
+        ],
+        score: 50,
+        hints: [
+            "Ele sempre tenta capturar o rato.",
+            "Ele é cinza e branco.",
+            "Seu nome tem apenas 3 letras."
+        ]
+    },
+    {
+        category: "Desenhos",
+        question: "Qual o nome do garoto que tem um laboratório secreto em seu quarto?",
+        answers: [
+            { text: "Johnny Bravo", correct: false },
+            { text: "Jimmy Neutron", correct: false },
+            { text: "Dexter", correct: true },
+            { text: "Phineas", correct: false }
+        ],
+        score: 150,
+        hints: [
+            "Sua irmã mais velha, Dee Dee, sempre invade seu laboratório.",
+            "Ele tem um sotaque estranho.",
+            "O nome do desenho é 'O Laboratório de...'."
+        ]
+    },
+    {
+        category: "Desenhos",
+        question: "Qual é o nome do cão medroso amigo de Salsicha?",
+        answers: [
+            { text: "Coragem, o Cão Covarde", correct: false },
+            { text: "Pluto", correct: false },
+            { text: "Scooby-Doo", correct: true },
+            { text: "Snoopy", correct: false }
+        ],
+        score: 50,
+        hints: [
+            "Ele resolve mistérios com seus amigos.",
+            "Ele adora 'Biscoitos Scooby'.",
+            "Sua frase é 'Scooby-Dooby-Doo!'."
+        ]
+    },
+    {
+        category: "Desenhos",
+        question: "Qual o nome da cidade onde vivem os Flintstones?",
+        answers: [
+            { text: "Springfield", correct: false },
+            { text: "Metropolis", correct: false },
+            { text: "Bedrock", correct: true },
+            { text: "Gotham", correct: false }
+        ],
+        score: 150,
+        hints: [
+            "É uma cidade da Idade da Pedra.",
+            "O nome se refere a uma base de rocha.",
+            "Começa com a letra 'B'."
+        ]
+    },
+    {
+        category: "Desenhos",
+        question: "Qual o nome do protagonista de 'Avatar: A Lenda de Aang'?",
+        answers: [
+            { text: "Zuko", correct: false },
+            { text: "Sokka", correct: false },
+            { text: "Aang", correct: true },
+            { text: "Korra", correct: false }
+        ],
+        score: 100,
+        hints: [
+            "Ele é um dobrador de ar.",
+            "Ele é o último de sua nação.",
+            "Seu nome está no título do desenho."
+        ]
+    },
+    {
+        category: "Desenhos",
+        question: "Qual o nome do vilão que sempre tenta roubar a fórmula do Hambúrguer de Siri?",
+        answers: [
+            { text: "Homem-Sereia", correct: false },
+            { text: "Lula Molusco", correct: false },
+            { text: "Plankton", correct: true },
+            { text: "Holandês Voador", correct: false }
+        ],
+        score: 100,
+        hints: [
+            "Ele é muito pequeno.",
+            "Ele é o dono do restaurante 'Balde de Lixo'.",
+            "Ele é um organismo unicelular."
+        ]
+    },
+    {
+        category: "Desenhos",
+        question: "Em 'Hora de Aventura', quais são os nomes dos dois personagens principais?",
+        answers: [
+            { text: "Mordecai e Rigby", correct: false },
+            { text: "Gumball e Darwin", correct: false },
+            { text: "Finn e Jake", correct: true },
+            { text: "Dipper e Mabel", correct: false }
+        ],
+        score: 100,
+        hints: [
+            "Um é um garoto humano.",
+            "O outro é um cão mágico que pode esticar seu corpo.",
+            "Eles vivem na Terra de Ooo."
+        ]
+    },
+    {
+        category: "Tecnologia",
+        question: "Qual empresa criou o sistema operacional Android?",
+        answers: [
+            { text: "Apple", correct: false },
+            { text: "Google", correct: true },
+            { text: "Microsoft", correct: false },
+            { text: "Samsung", correct: false }
+        ],
+        score: 100,
+        hints: [
+            "É uma gigante das buscas na internet.",
+            "Seu logo é colorido.",
+            "Ela também é dona do YouTube."
+        ]
+    },
+    {
+        category: "Cultura Pop",
+        question: "Qual é o nome do martelo do Thor nos filmes da Marvel?",
+        answers: [
+            { text: "Stormbreaker", correct: false },
+            { text: "Mjolnir", correct: true },
+            { text: "Excalibur", correct: false },
+            { text: "Gungnir", correct: false }
+        ],
+        score: 150,
+        hints: [
+            "O nome é de origem nórdica.",
+            "Só quem é digno pode levantá-lo.",
+            "Começa com a letra M."
+        ]
+    },
+    {
+        category: "Literatura",
+        question: "Quem escreveu 'O Pequeno Príncipe'?",
+        answers: [
+            { text: "J.K. Rowling", correct: false },
+            { text: "Antoine de Saint-Exupéry", correct: true },
+            { text: "Machado de Assis", correct: false },
+            { text: "Monteiro Lobato", correct: false }
+        ],
+        score: 200,
+        hints: [
+            "O autor era francês.",
+            "Ele também era aviador.",
+            "Seu sobrenome começa com S."
+        ]
+    },
+    {
+        category: "Geografia",
+        question: "Qual é o menor país do mundo?",
+        answers: [
+            { text: "Mônaco", correct: false },
+            { text: "Vaticano", correct: true },
+            { text: "San Marino", correct: false },
+            { text: "Liechtenstein", correct: false }
+        ],
+        score: 100,
+        hints: [
+            "Fica dentro de Roma.",
+            "É a sede da Igreja Católica.",
+            "O Papa mora lá."
+        ]
+    },
+    {
+        category: "Matemática",
+        question: "Qual é o valor de pi (π) arredondado para duas casas decimais?",
+        answers: [
+            { text: "3,14", correct: true },
+            { text: "2,71", correct: false },
+            { text: "1,62", correct: false },
+            { text: "3,33", correct: false }
+        ],
+        score: 50,
+        hints: [
+            "É um número irracional.",
+            "Começa com 3.",
+            "É usado para calcular a circunferência."
+        ]
+    },
+    {
+        category: "Música",
+        question: "Quem é conhecida como a 'Rainha do Pop'?",
+        answers: [
+            { text: "Beyoncé", correct: false },
+            { text: "Madonna", correct: true },
+            { text: "Lady Gaga", correct: false },
+            { text: "Rihanna", correct: false }
+        ],
+        score: 100,
+        hints: [
+            "Ela ficou famosa nos anos 80.",
+            "Seu nome artístico é Madonna.",
+            "Hits como 'Like a Virgin'."
+        ]
+    },
+    {
+        category: "Atualidades",
+        question: "Qual país sediou as Olimpíadas de 2021?",
+        answers: [
+            { text: "China", correct: false },
+            { text: "Japão", correct: true },
+            { text: "Brasil", correct: false },
+            { text: "França", correct: false }
+        ],
+        score: 150,
+        hints: [
+            "A cidade-sede foi Tóquio.",
+            "O evento foi adiado por causa da pandemia.",
+            "O país é conhecido por animes."
+        ]
+    },
+    {
+        category: "Natureza",
+        question: "Qual é o maior animal terrestre do mundo?",
+        answers: [
+            { text: "Elefante Africano", correct: true },
+            { text: "Girafa", correct: false },
+            { text: "Hipopótamo", correct: false },
+            { text: "Rinoceronte", correct: false }
+        ],
+        score: 100,
+        hints: [
+            "Tem grandes presas de marfim.",
+            "É encontrado na savana africana.",
+            "É o maior mamífero terrestre."
+        ]
+    },
+    {
+        category: "Línguas",
+        question: "Qual é o idioma mais falado no mundo?",
+        answers: [
+            { text: "Inglês", correct: false },
+            { text: "Mandarim", correct: true },
+            { text: "Espanhol", correct: false },
+            { text: "Hindi", correct: false }
+        ],
+        score: 150,
+        hints: [
+            "É falado principalmente na China.",
+            "Tem mais de 1 bilhão de falantes.",
+            "É um dos idiomas oficiais da ONU."
+        ]
+    },
+    {
+        category: "Invenções",
+        question: "Quem inventou a lâmpada elétrica?",
+        answers: [
+            { text: "Nikola Tesla", correct: false },
+            { text: "Thomas Edison", correct: true },
+            { text: "Alexander Graham Bell", correct: false },
+            { text: "Galileu Galilei", correct: false }
+        ],
+        score: 200,
+        hints: [
+            "Era um inventor americano.",
+            "Também inventou o fonógrafo.",
+            "Seu sobrenome é Edison."
+        ]
+    }
 ];
