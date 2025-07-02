@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vale Um Bilhão</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="game-container hidden" id="game-container">
+        <header class="game-header">
+            <div class="header-info">
+                <span>Pergunta <span id="question-counter">1</span>/20</span>
+            </div>
+            <!-- Contador de erros -->
+            <div class="header-info" id="error-tracker">
+                Erros:
+                <i class="fa-solid fa-heart-crack error-icon hidden"></i>
+                <i class="fa-solid fa-heart-crack error-icon hidden"></i>
+                <i class="fa-solid fa-heart-crack error-icon hidden"></i>
+            </div>
+            <div class="header-info">
+                <span>Pontuação: <span id="score">0</span></span>
+            </div>
+        </header>
+
+        <main class="quiz-area">
+            <div class="question-wrapper">
+                <p id="question-category" class="question-category">CATEGORIA</p>
+                <h2 id="question-text" class="question-text">Qual é a pergunta?</h2>
+            </div>
+            <div class="answer-options" id="answer-options"></div>
+        </main>
+
+        <!-- Seção de Ajudas -->
+        <footer class="help-section">
+            <button class="help-btn" id="help-universitarios">
+                <i class="fa-solid fa-user-graduate"></i> Universitários
+            </button>
+            <button class="help-btn" id="help-cartas">
+                <i class="fa-solid fa-clone"></i> Cartas
+            </button>
+            <button class="help-btn" id="help-professor">
+                <i class="fa-solid fa-chalkboard-user"></i> Professor Guilherme
+            </button>
+        </footer>
+    </div>
+
+    <!-- Telas de Início e Fim -->
+    <div class="start-screen" id="start-screen">
+        <h1 class="game-title">Vale Um Bilhão</h1>
+        <button class="start-btn" id="start-btn">Iniciar Jogo</button>
+    </div>
+
+    <div class="end-screen hidden" id="end-screen">
+        <div class="end-content">
+            <div id="victory-animation" class="victory-animation">
+                <span>V</span><span>I</span><span>T</span><span>Ó</span><span>R</span><span>I</span><span>A</span><span>!</span>
+            </div>
+            <h2 id="end-title">Fim de Jogo!</h2>
+            <p id="end-message">Sua pontuação final foi:</p>
+            <p id="final-score" class="final-score">0</p>
+            <button class="restart-btn" id="restart-btn">Jogar Novamente</button>
+        </div>
+    </div>
+
+    <!-- Modal genérico para as ajudas -->
+    <div class="modal-container hidden" id="help-modal">
+        <div class="modal-content">
+            <h3 id="modal-title">Ajuda</h3>
+            <div id="modal-body"></div>
+            <button id="modal-close-btn" class="modal-close-btn">Fechar</button>
+        </div>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
