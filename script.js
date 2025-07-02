@@ -33,6 +33,8 @@ const helpUniversitariosBtn = document.getElementById('help-universitarios');
 const helpCartasBtn = document.getElementById('help-cartas');
 const helpProfessorBtn = document.getElementById('help-professor');
 
+const playerNameInput = document.getElementById('player-name');
+
 // --- VARIÁVEIS DE ESTADO DO JOGO ---
 let shuffledQuestions, currentQuestionIndex;
 let score = 0;
@@ -40,6 +42,7 @@ let wrongAnswers = 0;
 let usedHelps = {};
 const TOTAL_QUESTIONS = 20;
 const MAX_WRONG_ANSWERS = 3;
+let playerName = '';
 
 // --- EVENT LISTENERS ---
 startBtn.addEventListener('click', startGame);
@@ -76,6 +79,9 @@ function shuffle(array) {
  * Inicia ou reinicia o jogo, resetando as variáveis e preparando a tela.
  */
 function startGame() {
+    // Salva o nome do jogador
+    playerName = playerNameInput ? playerNameInput.value.trim() : '';
+    if (!playerName) playerName = 'Jogador';
     // Esconde as telas de início/fim e mostra a tela do jogo.
     startScreen.classList.add('hidden');
     endScreen.classList.add('hidden');
@@ -216,7 +222,7 @@ function endGame(lostByErrors) {
 
     if (lostByErrors) {
         endTitleEl.innerText = "Fim de Jogo!";
-        endMessageEl.innerText = "Você errou 3 vezes. Sua pontuação final foi:";
+        endMessageEl.innerText = `Valeu, ${playerName}! Tente novamente! Você errou 3 vezes. Sua pontuação final foi:`;
         victoryAnimationEl.style.display = 'none';
         return;
     }
@@ -224,11 +230,11 @@ function endGame(lostByErrors) {
     const totalPossibleScore = shuffledQuestions.reduce((sum, q) => sum + q.score, 0);
     if (score >= totalPossibleScore / 2 && score > 0) {
         endTitleEl.innerText = "Parabéns!";
-        endMessageEl.innerText = "Você é um gênio! Sua pontuação final foi:";
+        endMessageEl.innerText = `Parabéns, ${playerName}! Você ganhou um bilhão em criptomoedas da VUB, você é o melhor! Sua pontuação final foi:`;
         showVictoryAnimation();
     } else {
         endTitleEl.innerText = "Você Concluiu!";
-        endMessageEl.innerText = "Não foi dessa vez, mas você chegou ao fim! Sua pontuação final foi:";
+        endMessageEl.innerText = `Não foi dessa vez, ${playerName}, mas você chegou ao fim! Sua pontuação final foi:`;
         victoryAnimationEl.style.display = 'none';
     }
 }
